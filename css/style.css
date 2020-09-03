@@ -1,0 +1,59 @@
+body {
+    background: rgba(0, 0, 0, 1.0)
+}
+ul{
+  list-style: none;
+}
+
+
+.jumbotron{
+  background: linear-gradient(0deg,#000000 5%, transparent),
+              url('/images/space-bg.jpg') no-repeat center;
+  background-size:  cover;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 50px;
+  background-color: #fff;
+  margin: auto;
+}
+.table-hover tbody tr:hover td,
+.fa  {
+  color: #fff;
+}
+.video {
+  max-width: 1230px;
+  width: 90%;
+  height: 750px;
+  margin: auto;
+
+}
+.rocket {
+  z-index: 99;  
+  top: 120px;
+  position: absolute;
+  right: 30px;
+  width: 20%;
+}
+
+
+.musk-img {
+  opacity: 0.3;
+  width: 90%;
+  
+}
+
+.social-media-contact a::after{
+  margin: 10px;
+  display: inline-block;  /* you need to put this, that way you can modify the shape of the element */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
